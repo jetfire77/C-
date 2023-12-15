@@ -55,12 +55,7 @@ void floyd_warshall(int graph[v][v])
 
 int main()
 {
-	// int graph[v][v] = {{0 , 1, 4, INT_MAX, INT_MAX, INT_MAX},
-	// 					{INT_MAX, 0, 4, 2, 7, INT_MAX},
-	// 					{INT_MAX, INT_MAX, 0, 3, 4, INT_MAX},
-	// 					{INT_MAX, INT_MAX, INT_MAX ,0, INT_MAX, 4},
-	// 					{INT_MAX, INT_MAX, INT_MAX, 3, 0, INT_MAX},
-	// 					{INT_MAX, INT_MAX, INT_MAX, INT_MAX, 5, 0}	};
+	
 
 
 	int graph[v][v] = { { 0, 5, INF, 10 },
